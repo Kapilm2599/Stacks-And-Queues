@@ -25,6 +25,10 @@ public class LinkedList {
 			temp.ref = newNode;
 		}
 	}
+	
+	public void deleteFirst() {
+		head = head.ref;
+	}
 
 	public void display() {
 		Node temp = head;
